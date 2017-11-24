@@ -1,4 +1,4 @@
-package ua.step.javasummer2017;
+package ua.step.javasummer2017.ihor_shylov;
 
 public class Main {
     public static void main(String[] args) {
