@@ -1,11 +1,15 @@
 package oop.mixed;
 
-public class Mixed2 {
+public class Mixed2 extends Object {
     public static void main(String[] args) {
         A a = new A();
         B b = new B();
         C c = new C();
         A a2 = new C();
+        System.out.println(c.getClass());
+        System.out.println(c.hashCode());
+        System.out.println(c.toString());
+        String name;
 
         b.m1();
         c.m2();
